@@ -58,7 +58,7 @@ class UPSConnection(object):
             url = self.test_urls[url_action]
 
         xml = self._generate_xml(url_action, ups_request)
-        resp = urllib.urlopen(url, xml.encode('ascii', 'xmlcharrefreplace'))\
+        resp = urllib.request.urlopen(url, xml.encode('ascii', 'xmlcharrefreplace'))\
                 .read()
 
         return UPSResult(resp)
