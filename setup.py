@@ -2,10 +2,10 @@ from distutils.core import setup
 
 setup(
     name='ClassicUPS',
-    version='0.1.8',
-    author='Jay Goel',
-    author_email='jay@classicspecs.com',
-    url='http://github.com/classicspecs/ClassicUPS/',
+    version='0.1.9',
+    author='Olexandr Shalakhin',
+    author_email='olexandr@shalakhin.com',
+    url='http://github.com/OShalakhin/ClassicUPS/',
     packages=['ClassicUPS'],
     description='Usable UPS Integration in Python',
     long_description=open('README.rst').read(),
