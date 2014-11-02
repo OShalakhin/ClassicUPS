@@ -11,7 +11,7 @@ setup(
     long_description=open('README.rst').read(),
     keywords=['UPS'],
     install_requires=[
-        'dict2xml',
+        # 'dict2xml',
         'xmltodict==0.4.2'
     ],
     classifiers=[
